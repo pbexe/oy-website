@@ -1,0 +1,15 @@
+language: node_js
+before_script:
+  - npm install -g gulp-cli
+install:
+- bower install
+- npm install
+script:
+- gulp build
+deploy:
+ provider: pages
+ skip_cleanup: true
+ github_token: $GITHUB_TOKEN
+ local_dir: dist
+ on:
+   branch: master

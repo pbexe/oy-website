@@ -1,0 +1,50 @@
+// bower:scss
+// endbower
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+a{
+  color: #333;
+}
+
+body {
+  font-family: 'IBM Plex Mono', monospace;
+  color: #333;
+}
+
+.body{
+
+  h1{
+    font-weight: 300;
+  }
+
+}
+
+.wrapper{
+  background-color: rgb(255, 255, 255);
+
+  .image{
+    width:100%;
+  }
+
+  .title{
+    // margin: 5rem 0px 5rem 0px;
+    height: 100vh;
+
+    img{
+      width: 50%;
+      height: auto;
+      margin: 0rem 0px 5rem 0px;
+    }
+
+  }
+
+  .content-row{
+    margin: 0px 0px 6rem 0px;
+  }
+}
